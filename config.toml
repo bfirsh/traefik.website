@@ -1,0 +1,11 @@
+baseurl = "http://traefik.github.io/"
+languageCode = "en-us"
+title = "/ˈTræfɪk/"
+
+[params]
+  description = "A modern reverse proxy"
+  author = "Emile Vauge"
+  github = "EmileVauge"
+  twitter = "emilevauge"
+  logo = "/traefik.logo.svg"
+  mainIcon = "/traefik.logo.svg"
