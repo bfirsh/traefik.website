@@ -7,7 +7,7 @@ class="post last"
 
 +++
 
-* The simple way: grab the latest binary from [![the Github releases page](https://img.shields.io/github/downloads/EmileVauge/traefik/latest/total.svg)](https://github.com/emilevauge/traefik/releases) and just run it with the sample configuration file:
+* The simple way: grab the latest binary from the [releases](https://github.com/emilevauge/traefik/releases) page and just run it with the [sample configuration file](https://raw.githubusercontent.com/EmileVauge/traefik/master/traefik.sample.toml):
 
 ```
 ./traefik traefik.toml
@@ -24,6 +24,8 @@ docker run -d -p 8080:8080 -p 80:80 -v $PWD/traefik.toml:/traefik.toml emilevaug
 ```
 git clone https://github.com/EmileVauge/traefik
 ```
+
+You can find the complete documentation [here](https://github.com/EmileVauge/traefik/blob/master/docs/index.md).
 
 [![Circle CI](https://img.shields.io/circleci/project/EmileVauge/traefik.svg)](https://circleci.com/gh/EmileVauge/traefik)
 

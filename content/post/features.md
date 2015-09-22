@@ -13,7 +13,10 @@ type = "post"
 * Watchers for backends, can listen change in backends to apply a new configuration automatically
 * Hot-reloading of configuration. No need to restart the process
 * Graceful shutdown http connections during hot-reloads
+* Circuit breakers on backends
+* Round Robin, rebalancer load-balancers
 * Rest Metrics
 * Tiny docker image included
 * SSL backends support
 * SSL frontend support
+* WebUI
