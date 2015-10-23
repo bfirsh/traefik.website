@@ -22,15 +22,11 @@ docker run -d -p 8080:8080 -p 80:80 -v $PWD/traefik.toml:/traefik.toml emilevaug
 * From sources:
 
 ```
-git clone https://github.com/EmileVauge/traefik
+git clone https://github.com/emilevauge/traefik
 ```
 
 You can find the complete documentation [here](https://github.com/EmileVauge/traefik/blob/master/docs/index.md).
 
-[![Circle CI](https://img.shields.io/circleci/project/EmileVauge/traefik.svg)](https://circleci.com/gh/EmileVauge/traefik)
-
-[![Forks](https://img.shields.io/github/forks/EmileVauge/traefik.svg)](https://github.com/EmileVauge/traefik)
-
-[![Stars](https://img.shields.io/github/stars/EmileVauge/traefik.svg)](https://github.com/EmileVauge/traefik)
+Come talk to us! <script async defer src="https://traefik.herokuapp.com/slackin.js?large"></script><br>
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/EmileVauge/traefik/blob/master/LICENSE.md)

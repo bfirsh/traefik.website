@@ -2051,7 +2051,7 @@ ul li {
   height: 100%;
   margin-bottom: 0rem;
   text-align: center;
-  color: white;
+  color: black;
   background: #0099cc no-repeat center center;
   background-size: cover; }
 
@@ -2455,7 +2455,8 @@ a.fn-item.active {
 
   .blog-description {
     font-size: 1.7rem;
-    line-height: 1.5em; }
+    line-height: 1.5em;
+    color: color: #000000;}
 
   .post {
     font-size: 0.9em;
