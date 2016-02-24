@@ -1,3 +1,39 @@
+.grid {
+  overflow: auto;
+  display: block;
+}
+.grid > div {
+  width: 200px;
+  height: 120px;
+}
+
+.vcenter  {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.logo {
+  display: block;
+  width: 110px;
+}
+
+figure.left img {
+  float: left;
+}
+
+figure.logoleft img {
+  max-height: 150px;
+  max-width: 200px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  margin-left: 0px;
+  float: left;
+  background-color: #F2EFE8 ;
+  padding: 20px;
+  border-radius: 10px;
+}
+
 #forkongithub a {
   background: #000;
   color: #fff;
