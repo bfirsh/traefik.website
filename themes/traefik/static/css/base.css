@@ -2057,7 +2057,7 @@ ul li {
 
 #blog-logo img {
   display: block;
-  max-height: 100px;
+  max-height: 300px;
   width: auto;
   margin: 0 auto;
   line-height: 0; }
@@ -2491,7 +2491,7 @@ a.fn-item.active {
     padding-top: 20px; }
 
   #blog-logo img {
-    max-height: 80px; }
+    max-height: 400px; }
 
   .inner,
   .pagination {
