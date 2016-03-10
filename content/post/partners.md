@@ -1,9 +1,8 @@
 +++
 date = "2015-10-09T00:41:40+02:00"
 title = "Partners"
-weight = 100
+weight = 6
 type = "post"
-class="post last"
 
 +++
 

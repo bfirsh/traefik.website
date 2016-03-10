@@ -25,7 +25,3 @@ git clone https://github.com/containous/traefik
 ```
 
 You can find the complete documentation [here](https://github.com/containous/traefik/blob/master/docs/index.md).
-
-Come talk to us! <script async defer src="https://traefik.herokuapp.com/slackin.js?large"></script><br>
-
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/containous/traefik/blob/master/LICENSE.md)
