@@ -6,7 +6,7 @@ type = "post"
 
 +++
 
-- [It's fast](https://github.com/containous/traefik/blob/master/docs/index.md#benchmarks)
+- [It's fast](http://docs.traefik.io/benchmarks)
 - No dependency hell, single binary made with go
 - Rest API
 - Multiple backends supported: Docker, Mesos/Marathon, Consul, Etcd, and more to come
@@ -16,9 +16,11 @@ type = "post"
 - Circuit breakers on backends
 - Round Robin, rebalancer load-balancers
 - Rest Metrics
-- Tiny docker image included
+- [Tiny](https://imagelayers.io/?images=traefik) [official](https://hub.docker.com/r/_/traefik/) docker image included
 - SSL backends support
 - SSL frontend support (with SNI)
 - Clean AngularJS Web UI
 - Websocket support
 - HTTP/2 support
+- Retry request if network error
+- [Let's Encrypt](https://letsencrypt.org) support (Automatic HTTPS)

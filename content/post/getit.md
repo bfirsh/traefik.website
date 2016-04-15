@@ -6,22 +6,22 @@ type = "post"
 
 +++
 
-* The simple way: grab the latest binary from the [releases](https://github.com/containous/traefik/releases) page and just run it with the [sample configuration file](https://raw.githubusercontent.com/containous/traefik/master/traefik.sample.toml):
+- The simple way: grab the latest binary from the [releases](https://github.com/containous/traefik/releases) page and just run it with the [sample configuration file](https://raw.githubusercontent.com/containous/traefik/master/traefik.sample.toml):
 
-```
-./traefik traefik.toml
-```
-
-* Use the tiny Docker image:
-
-```
-docker run -d -p 8080:8080 -p 80:80 -v $PWD/traefik.toml:/traefik.toml containous/traefik
+```shell
+./traefik -c traefik.toml
 ```
 
-* From sources:
+- Use the tiny Docker image:
 
+```shell
+docker run -d -p 8080:8080 -p 80:80 -v $PWD/traefik.toml:/etc/traefik/traefik.toml traefik
 ```
+
+- From sources:
+
+```shell
 git clone https://github.com/containous/traefik
 ```
 
-You can find the complete documentation [here](https://github.com/containous/traefik/blob/master/docs/index.md).
+You can find the complete documentation [here](https://docs.traefik.io).
