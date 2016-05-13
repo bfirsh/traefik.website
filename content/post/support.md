@@ -8,4 +8,4 @@ class="post last"
 +++
 
 You can join <script async defer src="https://traefik.herokuapp.com/slackin.js?large"></script> to get basic support.
-If you prefer a commercial support, please contact [containo.us](https://containo.us) by mail: <mailto:contact@containo.us>.
+If you prefer a commercial support, please contact [containo.us](https://containo.us) by mail: <mailto:support@containo.us>.
