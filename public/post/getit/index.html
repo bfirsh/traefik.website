@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <script>
+    (function(i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r;
+      i[r] = i[r] || function() {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date();
+      a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0];
+      a.async = 1;
+      a.src = g;
+      m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-51880359-2', 'auto');
+    ga('send', 'pageview');
+  </script>
+
+  
+  <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+  <link rel="icon" type="image/png" href="traefik.icon.png" />
+
+  <title>Get it</title>
+
+  <meta name="HandheldFriendly" content="True" />
+  <meta name="MobileOptimized" content="320" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  
+  <link rel="stylesheet" type="text/css" href="/css/base.css" />
+  <link rel="stylesheet" type="text/css" href="/css/traefik.css" />
+
+  <span id="forkongithub"><a href="https://github.com/containous/traefik">Fork me on GitHub</a></span>
+</head>
+
+    <body>
+        <div class="content-wrapper">
+            <div class="content-wrapper__inner">
+                <div class="post">
+                    <h1>Get it</h1>
+                    <span class="post-date">Fri, Sep 11, 2015</span>
+                    <ul>
+<li>The simple way: grab the latest binary from the <a href="https://github.com/containous/traefik/releases">releases</a> page and just run it with the <a href="https://raw.githubusercontent.com/containous/traefik/master/traefik.sample.toml">sample configuration file</a>:</li>
+</ul>
+
+<pre><code class="language-shell">./traefik -c traefik.toml
+</code></pre>
+
+<ul>
+<li>Use the tiny Docker image:</li>
+</ul>
+
+<pre><code class="language-shell">docker run -d -p 8080:8080 -p 80:80 -v $PWD/traefik.toml:/etc/traefik/traefik.toml traefik
+</code></pre>
+
+<ul>
+<li>From sources:</li>
+</ul>
+
+<pre><code class="language-shell">git clone https://github.com/containous/traefik
+</code></pre>
+
+<p>You can find the complete documentation <a href="https://docs.traefik.io">here</a>.</p>
+
+                </div>
+            </div>
+        </div>
+    </body>
+        
+    <script src="/js/jquery.min.js"></script>
+    <script type="text/javascript" src="/js/index.min.js"></script>
+
+</html>

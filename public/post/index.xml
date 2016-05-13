@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Træfɪk</title>
+    <link>https://traefik.io/post/</link>
+    <description>Recent content in Posts on Træfɪk</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 11 Sep 2015 00:40:46 +0200</lastBuildDate>
+    <atom:link href="https://traefik.io/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>What</title>
+      <link>https://traefik.io/post/what/</link>
+      <pubDate>Fri, 11 Sep 2015 00:40:46 +0200</pubDate>
+      
+      <guid>https://traefik.io/post/what/</guid>
+      <description>&lt;p&gt;Træfɪk is a modern HTTP reverse proxy and load balancer made to deploy microservices with ease.
+It supports several backends (&lt;a href=&#34;https://www.docker.com/&#34;&gt;Docker&lt;/a&gt;, &lt;a href=&#34;https://docs.docker.com/swarm&#34;&gt;Swarm&lt;/a&gt;, &lt;a href=&#34;https://mesosphere.github.io/marathon/&#34;&gt;Mesos/Marathon&lt;/a&gt;, &lt;a href=&#34;http://kubernetes.io/&#34;&gt;Kubernetes&lt;/a&gt;, &lt;a href=&#34;https://www.consul.io/&#34;&gt;Consul&lt;/a&gt;, &lt;a href=&#34;https://coreos.com/etcd/&#34;&gt;Etcd&lt;/a&gt;, &lt;a href=&#34;https://zookeeper.apache.org&#34;&gt;Zookeeper&lt;/a&gt;, &lt;a href=&#34;https://github.com/boltdb/bolt&#34;&gt;BoltDB&lt;/a&gt;, Rest API, file&amp;hellip;) to manage its configuration automatically and dynamically.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://docs.traefik.io/img/architecture.png&#34; alt=&#34;Architecture&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Features</title>
+      <link>https://traefik.io/post/features/</link>
+      <pubDate>Fri, 11 Sep 2015 00:41:40 +0200</pubDate>
+      
+      <guid>https://traefik.io/post/features/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://docs.traefik.io/benchmarks&#34;&gt;It&amp;rsquo;s fast&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;No dependency hell, single binary made with go&lt;/li&gt;
+&lt;li&gt;Rest API&lt;/li&gt;
+&lt;li&gt;Multiple backends supported: Docker, Mesos/Marathon, Consul, Etcd, and more to come&lt;/li&gt;
+&lt;li&gt;Watchers for backends, can listen change in backends to apply a new configuration automatically&lt;/li&gt;
+&lt;li&gt;Hot-reloading of configuration. No need to restart the process&lt;/li&gt;
+&lt;li&gt;Graceful shutdown http connections&lt;/li&gt;
+&lt;li&gt;Circuit breakers on backends&lt;/li&gt;
+&lt;li&gt;Round Robin, rebalancer load-balancers&lt;/li&gt;
+&lt;li&gt;Rest Metrics&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://imagelayers.io/?images=traefik&#34;&gt;Tiny&lt;/a&gt; &lt;a href=&#34;https://hub.docker.com/r/_/traefik/&#34;&gt;official&lt;/a&gt; docker image included&lt;/li&gt;
+&lt;li&gt;SSL backends support&lt;/li&gt;
+&lt;li&gt;SSL frontend support (with SNI)&lt;/li&gt;
+&lt;li&gt;Clean AngularJS Web UI&lt;/li&gt;
+&lt;li&gt;Websocket support&lt;/li&gt;
+&lt;li&gt;HTTP/2 support&lt;/li&gt;
+&lt;li&gt;Retry request if network error&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://letsencrypt.org&#34;&gt;Let&amp;rsquo;s Encrypt&lt;/a&gt; support (Automatic HTTPS)&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Clean UI</title>
+      <link>https://traefik.io/post/ui/</link>
+      <pubDate>Fri, 09 Oct 2015 00:41:40 +0200</pubDate>
+      
+      <guid>https://traefik.io/post/ui/</guid>
+      <description>&lt;p&gt;Træfɪk has a simple Web UI based on AngularJS.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;web.frontend.png&#34; alt=&#34;frontend&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;traefik-health.png&#34; alt=&#34;health&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Demo</title>
+      <link>https://traefik.io/post/demo/</link>
+      <pubDate>Mon, 28 Sep 2015 00:41:40 +0200</pubDate>
+      
+      <guid>https://traefik.io/post/demo/</guid>
+      <description>&lt;p&gt;Here is a demo of Træfɪk using Docker backend, showing a load-balancing between two servers, hot reloading of configuration, and graceful shutdown.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://asciinema.org/a/4tcyde7riou5vxulo6my3mtko&#34;&gt;&lt;img src=&#34;https://asciinema.org/a/4tcyde7riou5vxulo6my3mtko.png&#34; alt=&#34;asciicast&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Get it</title>
+      <link>https://traefik.io/post/getit/</link>
+      <pubDate>Fri, 11 Sep 2015 00:41:21 +0200</pubDate>
+      
+      <guid>https://traefik.io/post/getit/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;The simple way: grab the latest binary from the &lt;a href=&#34;https://github.com/containous/traefik/releases&#34;&gt;releases&lt;/a&gt; page and just run it with the &lt;a href=&#34;https://raw.githubusercontent.com/containous/traefik/master/traefik.sample.toml&#34;&gt;sample configuration file&lt;/a&gt;:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;./traefik -c traefik.toml
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Use the tiny Docker image:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;docker run -d -p 8080:8080 -p 80:80 -v $PWD/traefik.toml:/etc/traefik/traefik.toml traefik
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;From sources:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;git clone https://github.com/containous/traefik
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;You can find the complete documentation &lt;a href=&#34;https://docs.traefik.io&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Partners</title>
+      <link>https://traefik.io/post/partners/</link>
+      <pubDate>Fri, 09 Oct 2015 00:41:40 +0200</pubDate>
+      
+      <guid>https://traefik.io/post/partners/</guid>
+      <description>
+&lt;figure class=&#34;logoleft&#34;&gt;
+    &lt;a href=&#34;https://zenika.com/&#34;&gt;
+        &lt;img src=&#34;zenika.logo.png&#34; alt=&#34;Zenika&#34; /&gt;
+    &lt;/a&gt;
+    
+&lt;/figure&gt;
+
+
+&lt;p&gt;Zenika is one of the leading providers of professional Open Source services and agile methodologies in
+Europe. We provide consulting, development, training and support for the world’s leading Open Source
+software products.&lt;/p&gt;
+
+
+&lt;figure class=&#34;logoleft&#34;&gt;
+    &lt;a href=&#34;https://aster.is/&#34;&gt;
+        &lt;img src=&#34;asteris.logo.png&#34; alt=&#34;Asteris&#34; /&gt;
+    &lt;/a&gt;
+    
+&lt;/figure&gt;
+
+
+&lt;p&gt;Founded in 2014, Asteris creates next-generation infrastructure software for the modern datacenter. Asteris writes software that makes it easy for companies to implement continuous delivery and realtime data pipelines. We support the HashiCorp stack, along with Kubernetes, Apache Mesos, Spark and Kafka. We&amp;rsquo;re core committers on mantl.io, consul-cli and mesos-consul.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Support</title>
+      <link>https://traefik.io/post/support/</link>
+      <pubDate>Fri, 09 Oct 2015 00:41:40 +0200</pubDate>
+      
+      <guid>https://traefik.io/post/support/</guid>
+      <description>&lt;p&gt;You can join &lt;script async defer src=&#34;https://traefik.herokuapp.com/slackin.js?large&#34;&gt;&lt;/script&gt; to get basic support.
+If you prefer a commercial support, please contact &lt;a href=&#34;https://containo.us&#34;&gt;containo.us&lt;/a&gt; by mail: &lt;a href=&#34;mailto:support@containo.us&#34;&gt;support@containo.us&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
